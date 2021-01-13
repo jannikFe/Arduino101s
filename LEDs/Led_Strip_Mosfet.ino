@@ -1,6 +1,5 @@
 /*einfach Arduino-Code zum steuern eines LED-Strips mit drei Grundfarben
  *funktioniert nur mit seperaten Verstärkern z.B. Mosfets
- *wiring-circuit: 
  */
 #define POT_IN1 A0
 #define POT_IN2 A1
