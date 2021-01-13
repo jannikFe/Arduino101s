@@ -1,5 +1,15 @@
-/*einfach Arduino-Code zum steuern eines LED-Strips mit drei Grundfarben
- *funktioniert nur mit seperaten Verstärkern z.B. Mosfets
+/*
+ *simple Arduino-code to control your led-strip
+ *you can easily change each color individually via potentiomenters
+ *an amplifier, such as MOSFETs, is necessary => more details in the circuit-digram
+ *Which electrical components do you need? 
+ *1 Arduino (nano or uno works with this code)
+ *1 LM7805 voltage regulator
+ *3 IRFZ44N n-channel mosfets
+ *3 potentionmeters (anything between 10k to 50k works)
+ *3 (tiny) resistors with a resistance between 10k to 15k and 1/4W at least
+ * your 12V led-strip and your 12V power supply
+ *some soldering skills :)
  */
 #define POT_IN1 A0
 #define POT_IN2 A1
